@@ -22,12 +22,12 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
-choice1 = input("You're at a crossroad, where d you want to go next? Type 'left' or 'right'.").lower()
+choice1 = input("You're at a crossroad, where do you want to go next? Type 'left' or 'right'.").lower()
 
 if choice1 == "left":
     choice2 = input("You've come to a lake, there is an island in the middle of the lake.\nType 'wait' to wait for a boat.\nType 'swim' to swim across.").lower()
     if choice2 == "wait":
-        choice3 = input("You've arrived at the Island unharmed.\nThere is an house with 3 doors and you got only one CHOICE.\nOne red, one yellow and one blue.\nWhich color do you choose? ").lower()
+        choice3 = input("You've arrived at the Island unharmed.\nThere is a house with 3 doors and you got only one CHOICE.\nOne red, one yellow and one blue.\nWhich color do you choose? ").lower()
         if choice3 == "red":
             print("It's a room full of fire. GameOver!!!")
         elif choice3 == "yellow":
@@ -35,10 +35,11 @@ if choice1 == "left":
         elif choice3 == "blue":
             print("You've entered the monster's room. GameOver!!!")
         else:
-            print("The door you have choosen is not unlocked yet.\nYou have lost your choice.\nGameOver!!!")
+            print("The door you have chosen is not unlocked yet.\nYou have lost your choice.\nGameOver!!!")
                 
     else:
-        print("I guess Swimming was'nt a good idea. Game Over!!!")
+        print("I guess Swimming wasn't a good idea. Game Over!!!")
     
 else:
     print("You fell into a hole. Game Over!!!")
+
