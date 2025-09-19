@@ -15,7 +15,7 @@ if user_chose == "Rock":
     if computer_chooses == "Paper":
         print(f"{computer_chooses} beats {user_chose}. Computer Wins.")
     elif computer_chooses == "Scissors":
-        print(f"{user_chose} beats {computer_chooses}. You Won.")
+        print(f"{user_chose} beats {computer_chooses}. You Win.")
 elif user_chose == "Paper":
     if computer_chooses == "Rock":
         print(f"{user_chose} beats {computer_chooses}. You Win.")
@@ -26,3 +26,4 @@ elif user_chose == "Scissors":
         print(f"{user_chose} beats {computer_chooses}. You Win.")
     elif computer_chooses == "Rock":
         print(f"{computer_chooses} beats {user_chose}. Computer Wins.")
+
