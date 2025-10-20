@@ -1,0 +1,2 @@
+Rewrite entire text file using write() method.
+Appending the line without altering the previous texts.
